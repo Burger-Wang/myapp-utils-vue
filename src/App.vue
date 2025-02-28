@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import burgerNav from "./components/burgerNav/index.vue";
+import burgerNav from "@com/burgerNav/index.vue";
 </script>
 
 <style scoped>
@@ -43,9 +43,12 @@ import burgerNav from "./components/burgerNav/index.vue";
 
   /* background: linear-gradient(#9ebbf7, #b4efed); */
   .container {
-    height: 100%;
-    width: calc(100% - var(--nav-width) - 20px);
+    height: 100vh;
+    width: calc(100% - var(--nav-width) - 10px);
+    padding: 20px;
+    padding-top:  calc(var(--header-height) + 20px);
     margin-left: auto;
+    overflow-y: auto;
   }
 }
 </style>

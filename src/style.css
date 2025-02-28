@@ -13,8 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --nav-width: 220px;
+  --nav-width: 240px;
   --min-nav-width: 60px;
+  --header-height: 120px;
 }
 
 a {
@@ -41,6 +42,10 @@ body {
   padding: 0;
 }
 
+div{
+  box-sizing: border-box;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -63,6 +68,16 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 4px;
+  background-color: #333;
+  -webkit-border-radius: 4px;
 }
 
 .card {
