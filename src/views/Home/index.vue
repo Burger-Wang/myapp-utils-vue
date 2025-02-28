@@ -1,5 +1,5 @@
 <template>
-  <div class="test">222</div>
+  <div class="test">adfasdf</div>
 </template>
 
 <style lang="postcss" scoped>
