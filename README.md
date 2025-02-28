@@ -1,3 +1,3 @@
 # Vue 3 + Vite
 
-BurgerWang Web Page
+BurgerWang Web Page +1
